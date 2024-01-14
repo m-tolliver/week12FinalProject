@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chore List</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="week12.css">    
+    </head>
+<body class="container">
+    <script src="index.js"></script>
+    <br>
+
+<div id="chore-list" class="jumbotron">
+  <h2>Chore List</h2>
+ <form> 
+<!--This is where you will add a chore and assign it to someone-->
+  <div class="row">
+    <div class="col-sm">
+        <div class="form-group">
+            <label for "chore">Chore</label>
+            <input type="text" id="chore" class="form-control">
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+        <div class="form-group">
+            <label for "assigned">Assigned To</label>
+            <input type="text" id="assigned" class="form-control"
+        </div>
+    </div>
+</form>
+  
+<!--This is supposed to be where the list of chores appears-->
+<table>
+    <div class="responsive">   
+    <thead>
+            <th>Chore</th><br>
+            <th>Assigned To</th>
+        </thead>
+        <tbody>
+            <tr input type ="text"></tr>
+    
+        </tbody>
+      </table> 
+    </div>
+  </div>
+  <br>
+ 
+ <!--These are the buttons to create and delete the chores. I couldn't figure out how to make a button for each item.-->
+  <button id="create" class="btn btn-primary form-control">Create</button>
+  <button id="delete" class="btn btn-primary form-control">Remove Task When Complete</button>
+</div> 
+
+<div id="app">
+
+</div>
+
+<script src="index.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+    </html>
